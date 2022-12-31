@@ -1,0 +1,180 @@
+info: IdentityServer4.Startup[0]
+      Starting IdentityServer4 version 3.0.0.0
+info: IdentityServer4.Startup[0]
+      Using explicitly configured authentication scheme Identity.Application for IdentityServer
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\inetpub\wwwroot\MASter
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]
+      Failed to determine the https port for redirect.
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+info: IdentityServer4.ResponseHandling.AuthorizeInteractionResponseGenerator[0]
+      Showing error: prompt=none was requested but user is not authenticated
+info: IdentityServer4.Endpoints.AuthorizeEndpoint[0]
+      {
+        "ClientId": "AssetInspect.Client",
+        "ClientName": "AssetInspect.Client",
+        "RedirectUri": "http://localhost/authentication/login-callback",
+        "AllowedRedirectUris": [
+          "/authentication/login-callback"
+        ],
+        "SubjectId": "anonymous",
+        "ResponseType": "code",
+        "ResponseMode": "query",
+        "GrantType": "authorization_code",
+        "RequestedScopes": "AssetInspect.ServerAPI openid profile",
+        "State": "deedd78a67d74c9cb57638e9610f5f95",
+        "PromptMode": "none",
+        "Raw": {
+          "client_id": "AssetInspect.Client",
+          "redirect_uri": "http://localhost/authentication/login-callback",
+          "response_type": "code",
+          "scope": "AssetInspect.ServerAPI openid profile",
+          "state": "deedd78a67d74c9cb57638e9610f5f95",
+          "code_challenge": "KFaXwC9dlFpv_6zbkFs1JBdPBjIGfFrk9-lCJbtYRhE",
+          "code_challenge_method": "S256",
+          "prompt": "none",
+          "response_mode": "query"
+        }
+      }
+info: IdentityServer4.Events.DefaultEventService[0]
+      {
+        "Name": "Token Issued Failure",
+        "Category": "Token",
+        "EventType": "Failure",
+        "Id": 2001,
+        "ClientId": "AssetInspect.Client",
+        "ClientName": "AssetInspect.Client",
+        "RedirectUri": "http://localhost/authentication/login-callback",
+        "Endpoint": "Authorize",
+        "Scopes": "AssetInspect.ServerAPI openid profile",
+        "GrantType": "authorization_code",
+        "Error": "login_required",
+        "ActivityId": "80000016-0005-fa00-b63f-84710c7967bb",
+        "TimeStamp": "2020-08-28T16:01:01Z",
+        "ProcessId": 6780,
+        "LocalIpAddress": "::1:80",
+        "RemoteIpAddress": "::1"
+      }
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+info: IdentityServer4.ResponseHandling.AuthorizeInteractionResponseGenerator[0]
+      Showing error: prompt=none was requested but user is not authenticated
+info: IdentityServer4.Endpoints.AuthorizeEndpoint[0]
+      {
+        "ClientId": "AssetInspect.Client",
+        "ClientName": "AssetInspect.Client",
+        "RedirectUri": "http://localhost/authentication/login-callback",
+        "AllowedRedirectUris": [
+          "/authentication/login-callback"
+        ],
+        "SubjectId": "anonymous",
+        "ResponseType": "code",
+        "ResponseMode": "query",
+        "GrantType": "authorization_code",
+        "RequestedScopes": "AssetInspect.ServerAPI openid profile",
+        "State": "5f25640b7ae9401490ee623376122200",
+        "PromptMode": "none",
+        "Raw": {
+          "client_id": "AssetInspect.Client",
+          "redirect_uri": "http://localhost/authentication/login-callback",
+          "response_type": "code",
+          "scope": "AssetInspect.ServerAPI openid profile",
+          "state": "5f25640b7ae9401490ee623376122200",
+          "code_challenge": "MWZWoiEtZSb9y3UU4YSIz6ng-DY9xRUKqC5VZNRfT-I",
+          "code_challenge_method": "S256",
+          "prompt": "none",
+          "response_mode": "query"
+        }
+      }
+info: IdentityServer4.Events.DefaultEventService[0]
+      {
+        "Name": "Token Issued Failure",
+        "Category": "Token",
+        "EventType": "Failure",
+        "Id": 2001,
+        "ClientId": "AssetInspect.Client",
+        "ClientName": "AssetInspect.Client",
+        "RedirectUri": "http://localhost/authentication/login-callback",
+        "Endpoint": "Authorize",
+        "Scopes": "AssetInspect.ServerAPI openid profile",
+        "GrantType": "authorization_code",
+        "Error": "login_required",
+        "ActivityId": "80000017-0005-fa00-b63f-84710c7967bb",
+        "TimeStamp": "2020-08-28T16:01:01Z",
+        "ProcessId": 6780,
+        "LocalIpAddress": "::1:80",
+        "RemoteIpAddress": "::1"
+      }
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+info: IdentityServer4.ResponseHandling.AuthorizeInteractionResponseGenerator[0]
+      Showing login: User is not authenticated
+info: AssetInspect.Server.Areas.Identity.Pages.Account.LoginModel[0]
+      User logged in.
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+info: IdentityServer4.Events.DefaultEventService[0]
+      {
+        "Name": "Token Issued Success",
+        "Category": "Token",
+        "EventType": "Success",
+        "Id": 2000,
+        "ClientId": "AssetInspect.Client",
+        "ClientName": "AssetInspect.Client",
+        "RedirectUri": "http://localhost/authentication/login-callback",
+        "Endpoint": "Authorize",
+        "SubjectId": "bdc982a2-0763-42fb-9c58-80f93cd8d8a4",
+        "Scopes": "openid profile AssetInspect.ServerAPI",
+        "GrantType": "authorization_code",
+        "Tokens": [
+          {
+            "TokenType": "code",
+            "TokenValue": "****7Ow8"
+          }
+        ],
+        "ActivityId": "8000001e-0005-fa00-b63f-84710c7967bb",
+        "TimeStamp": "2020-08-28T16:01:44Z",
+        "ProcessId": 6780,
+        "LocalIpAddress": "::1:80",
+        "RemoteIpAddress": "::1"
+      }
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+info: IdentityServer4.Events.DefaultEventService[0]
+      {
+        "Name": "Client Authentication Success",
+        "Category": "Authentication",
+        "EventType": "Success",
+        "Id": 1010,
+        "ClientId": "AssetInspect.Client",
+        "AuthenticationMethod": "NoSecret",
+        "ActivityId": "80000020-0005-fa00-b63f-84710c7967bb",
+        "TimeStamp": "2020-08-28T16:01:45Z",
+        "ProcessId": 6780,
+        "LocalIpAddress": "::1:80",
+        "RemoteIpAddress": "::1"
+      }
+info: IdentityServer4.Validation.TokenRequestValidator[0]
+      Token request validation success, {
+        "ClientId": "AssetInspect.Client",
+        "ClientName": "AssetInspect.Client",
+        "GrantType": "authorization_code",
+        "AuthorizationCode": "QaLSL-mVEHSzkFsED5sn_kzeSsBFTYs6MZCFLTq7Ow8",
+        "Raw": {
+          "client_id": "AssetInspect.Client",
+          "code": "QaLSL-mVEHSzkFsED5sn_kzeSsBFTYs6MZCFLTq7Ow8",
+          "redirect_uri": "http://localhost/authentication/login-callback",
+          "code_verifier": "2f947580899e493898f541918e8ba1b1197bb9b5bf20493a9be2a10db476e1cd8ef9b3cee93a40c5b82093f936b12b17",
+          "grant_type": "authorization_code"
+        }
+      }
+info:
